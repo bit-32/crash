@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HELLO NEW USER </title>
+  <link rel="stylesheet" type="text/css" href="../css/register.css">
+</head>
+<body>
+ <div class="container">
+   <h1 class="label"> NEW REGISTER</h1>
+   <form class="login_form" method="post" name="form2" onsubmit="return validate1()">
+
+        <div class="font"> Enter your Name</div>
+        <input type="text" name="name_1">
+        <div id="name1_error">Name can't be blank</div>
+
+         <div class="font font2"> Enter your EMAIL I.D</div>
+         <input type="email" name="email1">
+         <div id="email1_error"> Please fill your correct email id</div>
+
+         <div class="font font2">Type a Password</div>
+         <input type="password" name="password1">
+         <div id="pass1_error"> Please fill a minimun of 8 character </div>
+
+         <div class="font font2"> Retype your Password</div>
+         <input type="password" name="repassword">
+         <div id="repass_error"> Passwords don't Match</div>
+
+
+         <button class="submit" >REGISTER</button>
+
+   </form>
+   <div class="register">New User? <a href="registration.html">Register here</a></div>
+ </div>  
+ <script src="../JS/validate1.js"></script>
+</body>
+</html>

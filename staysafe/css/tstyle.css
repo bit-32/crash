@@ -1,0 +1,121 @@
+.container{
+    position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+    
+} 
+input[type=text], select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.phone{
+    width: 40%;
+    padding: 6px 12px;
+    margin: auto 0;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.fa,.fas,.far {
+    font-size: 30px;
+    color: rgb(39, 39, 37);
+    padding: 0 5px;
+    opacity: 0.8;
+}
+.adult,.young{
+    width: 25%;
+    padding: 12px 20px;
+    display: inline-block;
+    margin: 9px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.no2{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: slategrey;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    width: 30%;
+    display: inline-block;
+}
+.time,.ret,.date{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 9px 8px;
+    width: 15%;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.mode{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: auto 0;
+    padding: 10px;
+    width: 13%;
+    display: inline-block;
+}
+.radio,span{
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px;
+    
+}
+h1{
+    text-align: center;
+    font-weight: 500;
+    color: #911a05;
+    font-size:45px;
+}
+p{
+    text-align: center;
+    color: #942205;
+    font-size: 32px;
+}
+input[type=submit]{
+    text-align: center;
+    background-color: #45a049;
+    width: 45%;
+    padding: 8px 6px;
+    margin: 5px 15px 5px 250px;
+    font-size: 15px;
+    color:#ffffff;
+    border:none;
+    border-radius:4px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+input[type=submit]:hover{
+    opacity: 1;
+}
+.bus,.train{
+    width: 150px;
+    display: inline-block;
+}
+.bus{float: left;}
+.train{
+    float: right;
+    position: relative;
+    bottom: 260px;
+    border: 1px solid black;
+    
+}
+h1,p{clear: both;}
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+li span{
+    font-style: italic;
+}
